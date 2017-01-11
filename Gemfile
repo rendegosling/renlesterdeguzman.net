@@ -14,6 +14,7 @@ gem 'devise'
 gem 'activeadmin', github: 'activeadmin'
 gem 'active_skin'
 gem 'paperclip', '~> 4.3', '>= 4.3.6'
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
 group :development, :test do
   gem 'byebug'

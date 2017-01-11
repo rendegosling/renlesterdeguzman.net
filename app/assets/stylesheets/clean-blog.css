@@ -52,9 +52,11 @@ hr.small {
   width: 100%;
   z-index: 3;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
 }
 .navbar-custom .navbar-brand {
   font-weight: 800;
+  text-decoration: none;
 }
 .navbar-custom .navbar-header .navbar-toggle {
   color: #777777;
@@ -67,6 +69,7 @@ hr.small {
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 1px;
+  text-decoration: none;
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
@@ -84,6 +87,7 @@ hr.small {
   .navbar-custom .nav li a {
     color: white;
     padding: 20px;
+    text-decoration: none;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
@@ -217,6 +221,7 @@ hr.small {
 }
 .post-preview > a {
   color: #333333;
+  text-decoration: none;
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
